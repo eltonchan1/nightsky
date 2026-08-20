@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'augiepixel';
+    src: url('assets/augiepixel.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+html {
+    background-image: url("assets/nightsky.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'augiepixel', sans-serif;
+    font-size: 150px;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.25);
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+.bounce {
+    position: absolute;
+    will-change: left, top;
+}
+
+.spotify-player {
+  position: fixed;
+  bottom: -120px;
+  right: 20px;
+  width: 400px;
+  height: 300px;
+  border-radius: 12px;
+  z-index: 9999;
+}
